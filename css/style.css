@@ -1,4 +1,4 @@
-*,
+ *,
 *::before,
 *::after {
 	margin: 0;
@@ -216,16 +216,16 @@ h1 {
 .wthree_footer_copy p a:hover{
 	color:#212121;
 }
-
-.btn-container{
+.w3ls-touch{
 	padding: 1em;
 }
 .btn-container {
     display: flex;
     justify-content: space-between;
-    margin: 50px 10px 120px;
+    margin: 0px 0px 150px;
 }
 .btn-container button {
+<<<<<<< HEAD
     height: 80px;
     width: 120px;
     border:  none;
@@ -233,6 +233,15 @@ h1 {
     border-radius: 15px;
     column-count: rgb(0, 0, 0);
     color: rgb(0, 0, 0);
+=======
+    height: 40px;
+    width: 80px;
+    border:  none;
+    margin-right: 0px;
+    border-radius: 12px;
+    column-count: #333;
+    color: #333;
+>>>>>>> a61da33c8e43b825de45f820db7df4cb50e7164c
     cursor: pointer;
     background-color: rgb(142, 187, 255);
 }
