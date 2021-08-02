@@ -1,62 +1,288 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-<title>Shaded Profile Widget Flat Responsive Widget Template :: w3layouts</title>
-<!-- Custom Theme files -->
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
-<!-- for-mobile-apps -->
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
-<!-- //for-mobile-apps -->
-<!-- font-awesome icons -->
-<link href="css/font-awesome.css" rel="stylesheet"> 
-<!-- //font-awesome icons -->
-<!--Google Fonts-->
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
-<!--profile start here-->
-<h1 class="heading-1">𝙼𝚢 𝙿𝚛𝚘𝚏𝚒𝚕𝚎</h1>
-<div class="profile">
-	<div class="wrap">
-		<div class="profile-main">
-			<div class="profile-pic wthree">
-				<img src="images/2.png" alt="">
-				<h2>Minh Mew</h2>
-				<p>Photographer -Develop - Coder</p>
-			</div>
-			<div class="w3-message">
-				<h5>Trương Văn Minh </h5>
-				<p>Trường đại học Công Nghiệp Hà Nội</p>
-		
-			</div>
-			<div class="w3ls-touch">
-				<h5>Get In Touch</h5>
-				<div class="social">	
-					<ul>
-						<li><a href="https://www.facebook.com/minh.truongvan.1808/"><i class="fa fa-facebook" aria-hidden="true"></i> <p>Connected To Faebook</p></a></li>
-						<li><a href="https://www.instagram.com/meomeo.188/"><i class="fa fa-instagram" aria-hidden="true"></i> <p>Connected To Intasgram</p></a></li>
-						<li><a href="https://www.tiktok.com/@tuilaminh02?lang=vi-VN"><i class="fa fa-tiktok" aria-hidden="true"></i> <p>Connected To TikTok</p></a></li>
-						<li><a href="https://chat.zalo.me/?null"><i class="fa fa-zalo" aria-hidden="true"></i> <p>onnected To Zalo</p></a></li>
-					</ul>
-				</div>
-			</div>
-			<div class="btn-container">
-                <form method="get" action="tel:0397182002">
-                    <button type="submit">Contact 📞</button>
-                </form>
-                <form method="get" action="https://www.facebook.com/minh.truongvan.1808/">
-                    <button type="submit">Add Friend 👩‍❤️‍👨</button>
-                </form>
-            </div>
-		</div>
-		<div class="wthree_footer_copy">
-			<p>© 2021 Namecard. All rights reserved | Design by <a href="https://www.facebook.com/minh.truongvan.1808/">Hades1398</a></p>
-		</div>
-	</div>
-</div>
-<!--profile end here-->
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 
-</body>
-</html>
+html {
+	
+}
+
+
+ul{list-style:none;}
+a {text-decoration: none;}
+img {
+	width:160px;
+	height:160px;
+}
+/*end reset*/
+body{
+	padding: 30px;
+    background: #a3cef1;
+    background-size: cover;
+   font-family: 'Raleway', sans-serif;
+}
+.wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+/*--profile start here--*/
+.heading-1 {
+	font-size: 40px;
+	font-weight: 400;
+	letter-spacing: 1.2;
+}
+h1 {
+    font-size: 3em;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.profile-main {
+    background: url(../images/1.png) no-repeat 0px 0px;
+	background-size:cover;
+    width: 45%;
+    margin: 10px auto;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 5px 10px 10px 5px rgba(0,0,0,.2);
+}
+.profile-pic {
+    margin: 0 0 1em 0;
+    text-align: center;
+}
+.profile-pic img {
+    border:4px solid rgb(255, 255, 255);
+    border-radius: 82px;
+	    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+.profile-pic h2 {
+    font-size: 2em;
+    color: #000000;
+    margin-bottom: 0.1em;
+}
+.profile-pic p {
+    font-size: 1em;
+    color:#000000;
+}
+.wthree_tab_grid_sub {
+    margin: 1em 0 0 0;
+}
+.wthree_tab_grid_sub_left {
+	float: left;
+    width: 26.2%;
+    padding: .5em;
+    text-align: center;
+    background: #d3aefe;
+}
+.wthree_tab_grid_sub_left h5 {
+    font-size: 1.5em !important;
+    color: #fff !important;
+    font-weight: 700;
+}
+.wthree_tab_grid_sub_left p {
+	color: #fff !important;
+    font-size: .9em !important;
+    margin: 0 !important;
+}
+.wthree_tab_grid_sub_left:nth-child(2) {
+    margin: 0 1em;
+}
+/* .w3-message,.w3ls-touch{
+    padding: 1em;
+    box-shadow: 0 0px 1px rgba(197, 197, 197, 0.19),0 1px 2px rgba(0, 0, 0, 0.24);
+    background: rgb(253, 253, 253);
+} */
+.w3-message{
+    padding: 1em;
+    box-shadow: 0 0px 1px rgba(197, 197, 197, 0.19),0 1px 2px rgba(0, 0, 0, 0.24);
+    background: rgb(190, 142, 142);
+	text-align: center;
+}
+.w3-message h5,.w3ls-touch h5{
+	color:#000000;
+	font-size:1.5em;
+	margin:0;
+}
+.w3-message p{
+	color:#000000;
+	font-size:18px;
+	margin:1em 0 0 0;
+	line-height:1.8em;
+}
+
+.w3ls-touch{
+	padding: 1em;
+}
+.social {
+	margin: 1em 0 0 0;
+}
+.social ul{
+	padding:0;
+	margin:0;
+}
+.social ul li{
+    display: block;
+	margin:1em 0 0 0;
+}
+.social ul li:nth-child(1){
+	margin:0;
+}
+.social ul li a {
+	color: rgb(0, 0, 0);
+    text-align: center;
+}
+.social ul li a i.fa.fa-facebook,.social ul li a i.fa.fa-instagram,.social ul li a i.fa.fa-tiktok,.social ul li a i.fa.fa-zalo,.social ul li a i.fa.fa-google-plus{
+    height: 50px;
+    width: 50px;
+    background: none;
+    line-height: 40px;
+    border: solid 2px rgb(189, 121, 127);
+    color: rgb(255, 255, 255);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.social ul li a i.fa.fa-facebook {
+	background: #3b5998;
+}
+.social ul li a i.fa.fa-instagram{
+	background: #da5148;
+}
+.social ul li a i.fa.fa-tiktok{
+	background: #000000;
+}
+.social ul li a i.fa.fa-zalo{
+	background: #385fca;
+}
+.social ul li a i.fa.fa-google-plus{
+	background: #dd4b39;
+}
+.social ul li a i.fa.fa-facebook:hover {
+	border: solid 2px #3b5998;
+    color: #3b5998;
+	background:none;
+}
+.social ul li a i.fa.fa-instagram:hover{
+	border: solid 2px #ff3b3b;
+    color: #ff0000;
+	background:none;
+}
+.social ul li a i.fa.fa-tiktok:hover{
+	border: solid 2px #000102;
+    color: #000000;
+	background:none;
+}
+.social ul li a i.fa.fa-zalo:hover{
+	border: solid 2px #73ceff;
+    color: #83d4ff;
+	background:none;
+}
+.social ul li a i.fa.fa-google-plus:hover{
+	border: solid 2px #dd4b39;
+    color: #dd4b39;
+	background:none;
+}
+.social ul li a p{
+    color: #212121;
+    font-size: 19px;
+    margin: 0 0 0 1em;
+    font-weight: 400;
+    display: inline-block;
+}
+.wthree_footer_copy{
+	text-align:center;
+}
+.wthree_footer_copy p{
+	color:#FFFFFF;
+	font-size:.9em;
+	margin:0;
+}
+.wthree_footer_copy p a{
+	color:#FFFFFF;
+	text-decoration:none;
+}
+.wthree_footer_copy p a:hover{
+	color:#212121;
+}
+
+.btn-container{
+	padding: 1em;
+}
+.btn-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 10px 120px;
+}
+.btn-container button {
+    height: 100px;
+    width: 140px;
+    border:  none;
+    margin-right: 50px;
+    border-radius: 150px;
+    column-count: rgb(161, 74, 74);
+    color: rgb(112, 0, 0);
+    cursor: pointer;
+    background-color: rgb(166, 196, 221);
+}
+/*-- responsive --*/
+@media(max-width:1440px){
+	.wthree_tab_grid_sub_left {
+		width: 25.2%;
+	}
+}
+@media(max-width:1280px){
+	.profile-main {
+		width: 43%;
+	}
+}
+@media(max-width:1080px){
+	body {
+		padding: 10px;
+	}
+	.wrap {
+		width: 100%;
+	}
+	.profile-main {
+		width: 100%;
+	}
+}
+
+@media(max-width:600px){
+	.profile-main {
+		background: url(../images/1.png) no-repeat -100px 0px;
+		background-size: cover;
+	}
+	.social ul li a p {
+		font-size: 16px;
+	}
+}
+
+
+@media(max-width:320px){
+	h1 {
+		font-size: 1.5em;
+	}
+	.wthree_tab_grid_sub_left {
+		width: 21.5%;
+	}
+	.wthree_tab_grid_sub_left p {
+		font-size: .8em !important;
+	}
+	.profile-main {
+		background: url(../images/1.png) no-repeat -173px 0px;
+		background-size: cover;
+	}
+}
+/*-- //responsive --*/
